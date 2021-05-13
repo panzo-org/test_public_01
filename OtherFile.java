@@ -1,3 +1,5 @@
+import java.awt.Rectangle;
+
 public class OtherFile {
   public static void alterPointer2(Rectangle r)
 	{	System.out.println("In method alterPointer. r " + r + "\n");
