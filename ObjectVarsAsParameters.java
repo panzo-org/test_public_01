@@ -43,5 +43,5 @@ public class ObjectVarsAsParameters
                 System.out.println("In method alterPointer. r " + r + "\n");
         }
 	
-	
+        public static void bla() {}	
 }
