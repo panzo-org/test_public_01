@@ -5,8 +5,6 @@ public class ObjectVarsAsParameters
 	{	go();
 	}
 
-
-
 	public static void go()
 	{	Rectangle r1 = new Rectangle(0,0,5,5);
 		System.out.println("In method go. r1 " + r1 + "\n");
