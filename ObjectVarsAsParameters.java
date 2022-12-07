@@ -4,6 +4,7 @@ public class ObjectVarsAsParameters
 {	public static void main(String[] args)
 	{	go();
 	}
+
 	
 	public static void go()
 	{	Rectangle r1 = new Rectangle(0,0,5,5);
