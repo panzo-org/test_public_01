@@ -18,8 +18,6 @@ public class ObjectVarsAsParameters
 		alterPointer(r1);
 		System.out.println("In method go. r1 " + r1 + "\n");
 	}
-
-
 	
 	public static void alterPointee(Rectangle r)
 	{	System.out.println("In method alterPointee. r " + r + "\n");
