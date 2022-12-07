@@ -4,7 +4,7 @@ public class ObjectVarsAsParameters
 {	public static void main(String[] args)
 	{	go();
 	}
-	
+
 	public static void go()
 	{	Rectangle r1 = new Rectangle(0,0,5,5);
 		System.out.println("In method go. r1 " + r1 + "\n");
@@ -36,6 +36,11 @@ public class ObjectVarsAsParameters
 		r = new Rectangle(5, 10, 30, 35);
 		System.out.println("In method alterPointer. r " + r + "\n");
 	}
-	
+
+        public static void alterPointer3(Rectangle r)
+        {       System.out.println("In method alterPointer. r " + r + "\n");
+                r = new Rectangle(5, 10, 30, 35);
+                System.out.println("In method alterPointer. r " + r + "\n");
+        }
 	
 }
