@@ -24,4 +24,10 @@ public class OtherFile {
 		r = new Rectangle(15, 110, 30, 35);
 		System.out.println("In method alterPointer3. r " + r + "\n");
 	}
+	
+	public static void alterPointer6(Rectangle r)
+	{	System.out.println("In method alterPointer3. r " + r + "\n");
+		r = new Rectangle(15, 110, 30, 35);
+		System.out.println("In method alterPointer3. r " + r + "\n");
+	}
 }
